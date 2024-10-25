@@ -38,9 +38,11 @@ public class Driver {
             caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, ANDROIDVERSION);
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM);
             caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, OTOMASYON_ISMI);
-            caps.setCapability("appPackage","com.skypicker.main");
+           // caps.setCapability("appPackage","com.skypicker.main");
+            caps.setCapability("appPackage","com.smartwho.SmartAllCurrencyConverter");
             //kopyalarken fazala deger olur herzaman sonda ki -kiwi.com hep sil com.kiwi.android.feature.splash.impl.ui.SplashActivity - Kiwi.com
-            caps.setCapability("appActivity","com.kiwi.android.feature.splash.impl.ui.SplashActivity");
+            caps.setCapability("appActivity","com.smartwho.SmartAllCurrencyConverter.CurrencyConverter");
+            //caps.setCapability("appActivity","com.kiwi.android.feature.splash.impl.ui.SplashActivity");
             caps.setCapability(MobileCapabilityType.NO_RESET,false);
              /* eger false olursa; her test baslangicinda kullanici datalari(tercihleri) sifirlanir ve uygulama
             her seferinde ilk yuklendigi haliyle calisir

@@ -30,7 +30,7 @@ public class ApkYukleme {
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         //UiAutoMator2 Android  6.0 uzeri olan lar icin
         // //UiAutoMator Android 6.0 alti olan
-        cap.setCapability(MobileCapabilityType.APP, "C:\\Users\\levoo\\IdeaProjects\\Appium_ProjectII\\Apps\\Kiwi.com - Book Cheap Flights_2023.14.0_Apkpure.apk");
+        cap.setCapability(MobileCapabilityType.APP, "C:\\Users\\levoo\\IdeaProjects\\Appium_ProjectII\\Apps\\all-currency-converter-3-9-0 (1).apk");
         //App capability uygulama eger yklu degilse uygulamayi cihaza yuklemek icin kullanilir
         //Eger uygulama yuklu ise ve tekrardan test calistrilirsa App cap uygulamma yuklu mu diye kontrol eder
         //Eger yukli degilse uygulamayi yukler egeryuklu ise uygulamayi acar
