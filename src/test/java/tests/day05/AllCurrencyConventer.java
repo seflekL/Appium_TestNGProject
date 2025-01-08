@@ -29,7 +29,7 @@ public class AllCurrencyConventer {
         page.bir.click();
         page.ucSifir.click();
         File ekranfotografi= driver.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(ekranfotografi,new File("t141.png"));
+        FileUtils.copyFile(ekranfotografi,new File("test.png"));
         ReusableMethods.getScreenshot("methodlu");
 
 // Ardindan zloty nin tl karsiligi olan tl degeri kaydedilir
